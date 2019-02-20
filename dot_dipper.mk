@@ -24,3 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="dipper"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Set BootAnimation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
