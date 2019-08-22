@@ -31,3 +31,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.nfc_nci=nqx.default \
     ro.se.type=HCE,UICC
+
+# MiPush Fake
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.miui.ui.version.name=V9 \
+    ro.miui.ui.version.code=7 \
+    ro.miui.version.code_time=1505408400 \
