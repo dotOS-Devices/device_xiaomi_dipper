@@ -289,6 +289,9 @@ vendor/lib/libscveFaceRecognition.so
 vendor/lib64/libscveFaceLandmarks.so
 vendor/lib64/libscveFaceRecognition.so
 
+# Telephony (qti-telephony-common) - from DRG - QKQ1.190828.002
+product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
+
 # Thermal configs
 vendor/etc/thermal-engine-sdm845-arvr.conf
 vendor/etc/thermal-engine-sdm845-camera.conf
