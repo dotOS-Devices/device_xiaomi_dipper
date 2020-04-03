@@ -16,7 +16,7 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 $(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
 
 # Firmware
-$(call inherit-product, vendor/xiaomi/firmware/dipper/firmware.mk)
+$(call inherit-product, vendor/xiaomi-firmware/dipper/firmware.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2248
