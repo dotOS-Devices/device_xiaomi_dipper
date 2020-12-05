@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common Custom stuff.
 $(call inherit-product-if-exists, vendor/Lawnchair/config.mk)
+$(call inherit-product-if-exists, external/moto/faceunlock/config.mk)
 
 # Inherit some common Lineage stuff.
 TARGET_GAPPS_ARCH := arm64
