@@ -18,6 +18,7 @@ TARGET_OTA_ASSERT_DEVICE := dipper
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
 # HIDL
