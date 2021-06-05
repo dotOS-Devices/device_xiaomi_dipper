@@ -11,7 +11,7 @@
   },
   {
     "repository": "proprietary_vendor_xiaomi_dipper",
-    "target_path": "vendor/xiaomi/dipper",
+    "target_path": "vendor/xiaomi",
     "branch": "dot11"
   }
 ]
