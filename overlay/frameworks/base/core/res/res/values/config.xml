@@ -705,4 +705,7 @@
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 
+    <!-- this device supports smart charging -->
+    <bool name="config_smartChargingVisibility">true</bool>
+
 </resources>
