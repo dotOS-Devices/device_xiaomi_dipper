@@ -15,6 +15,9 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/xiaomi/dipper/dipper-vendor.mk)
 
+# Firmware
+$(call inherit-product, vendor/xiaomi/firmware/dipper/firmware.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2248
 TARGET_SCREEN_WIDTH := 1080
