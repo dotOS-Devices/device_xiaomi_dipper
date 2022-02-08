@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_dipper
