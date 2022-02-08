@@ -24,4 +24,10 @@
     "target_path": "vendor/xiaomi/sdm845-common-extra",
     "branch": "dot12"
   }
+  {
+    "repository": "proprietary_vendor_xiaomi_dipper-firmware",
+    "target_path": "vendor/xiaomi/dipper-firmware",
+    "branch": "dot12"
+    "remote": "dotOS-devices-gitlab"
+  }
 ]
