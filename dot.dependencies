@@ -2,16 +2,16 @@
   {
     "repository": "android_device_xiaomi_sdm845-common",
     "target_path": "device/xiaomi/sdm845-common"
-    "branch": "dot12"
+    "branch": "dot12.1"
   }
   {
     "repository":  "android_kernel_xiaomi_dipper",
     "target_path": "kernel/xiaomi/dipper",
-    "branch": "dot12"
+    "branch": "dot12.1"
   },
   {
     "repository": "proprietary_vendor_xiaomi_dipper",
     "target_path": "vendor/xiaomi",
-    "branch": "dot12"
+    "branch": "dot12.1"
   }
 ]
